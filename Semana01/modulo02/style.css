@@ -2,3 +2,17 @@ body {
   background-color: #282a36;
   color: #FFF;
 }
+
+/* HEADER */
+header {
+  padding: 32px;
+  border-bottom: 1px solid #333;
+  background: rdgb(0, 0, 0 0.1);
+}
+
+header div {
+  text-align: center;
+}
+header div a {
+  color: white;
+}
