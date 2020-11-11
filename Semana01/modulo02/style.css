@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap';
 
+:root{
+  --color-gree: #50fa7b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +36,7 @@ header div a {
 }
 
 header div a:hover {
-  color: #50fa7b;
+  color: var(--color-gree);
   transition: color 700ms;
 }
 
@@ -44,7 +48,7 @@ header div a:hover {
 
 #wrapper img {
   border-radius: 50%;
-  border: 5px solid #50fa7b;
+  border: 5px solid var(--color-gree);
   margin-bottom: 32px;
 }
 
@@ -67,4 +71,8 @@ header div a:hover {
   margin: 32px auto;
   font-size: 24px;
   line-height: 34px;
+}
+
+#wrapper p a {
+  color: var(--color-gree);
 }
