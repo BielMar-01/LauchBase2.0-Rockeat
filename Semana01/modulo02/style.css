@@ -16,7 +16,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* HEADER */
+/*===== HEADER =====*/  
 header {
   padding: 32px;
   border-bottom: 1px solid #333;
@@ -40,7 +40,7 @@ header {
   transition: color 700ms;
 }
 
-/* WRAPPER */
+/*===== WRAPPER =====*/
 #wrapper {
   text-align: center;
   padding: 32px;
@@ -80,4 +80,22 @@ header {
 
 #links-footer a {
   border-bottom: 1px solid var(--color-gree);
+}
+
+/*===== CARDS =====*/
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #7159c1;
+}
+
+.card_image-container img {
+  width: 100%;
+}
+
+.card_content, .card_info {
+  padding: 24px;
 }
