@@ -1,5 +1,7 @@
 @import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap';
 
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
 :root{
   --color-gree: #50fa7b;
   --color-rocket: #7159c1;
@@ -124,4 +126,20 @@ header {
   height: 100%;
   position: fixed;
   top: 0;
+}
+
+.modal {
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal {
+  color: black;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
 }
