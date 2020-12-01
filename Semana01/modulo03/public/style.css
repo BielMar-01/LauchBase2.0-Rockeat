@@ -164,7 +164,7 @@ iframe {
 }
 
 /*===== FEATURED =====*/
-.card_image-container {
+.featured-wrapper.card_image-container {
   position: relative;
 }
 
