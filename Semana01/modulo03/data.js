@@ -3,7 +3,8 @@ module.exports = [
     id: "-ZV-_7vNRGw",
     title: "Formulario Animado com JS puro e CSS Animation | Mayk Brito",
     duration: "57 min",
-    price: "Free"
+    price: "Free", 
+    featured: true,
   },
   {
     id: "XdqD8qi44Cg",
@@ -15,13 +16,15 @@ module.exports = [
     id: "-ZV-_7vNRGw",
     title: "Formulario Animado com JS puro e CSS Animation | Mayk Brito",
     duration: "57 min",
-    price: "Free"
+    price: "Free",
+    featured: true,
   },
   {
     id: "-ZV-_7vNRGw",
     title: "Formulario Animado com JS puro e CSS Animation | Mayk Brito",
     duration: "57 min",
-    price: "Free"
+    price: "Free",
+    featured: true,
   },
   {
     id: "-ZV-_7vNRGw",

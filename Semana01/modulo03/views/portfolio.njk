@@ -23,6 +23,9 @@
         <img 
         src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" 
         alt=" Imagem de {{item.title}}">
+        {% if item.featured %}
+          <div class="featured">Featured</div>
+        {% endif %}
       </div>
 
       <div class="card_content">
