@@ -20,7 +20,7 @@ module.exports = [
     featured: true,
   },
   {
-    id: "-ZV-_7vNRGw",
+    id: "204ewU7NRO0",
     title: "Formulario Animado com JS puro e CSS Animation | Mayk Brito",
     duration: "57 min",
     price: "Free",
