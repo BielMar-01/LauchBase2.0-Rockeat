@@ -184,8 +184,13 @@ iframe {
   margin: 0 auto;
 }
 
+.video .card {
+  cursor: initial;
+}
+
 .card_video-container  {
   position: relative;
+  width: 100%;
   padding-top: 65.5%;
 }
 

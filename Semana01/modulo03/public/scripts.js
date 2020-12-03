@@ -15,6 +15,3 @@ for (let card of cards) {
     modalOverlay.querySelector(".iframe").src = `https://www.youtube.com/embed/${videoId}`;
   })
 }
-
-
-
