@@ -7,18 +7,14 @@ const cards = document.querySelectorAll('.card');
 for (let card of cards) {
   card.addEventListener("click", function() {
     //VIDEO
-    const videoId = card.getAttribute("id")
+    const videoId = card.getAttribute("id");
+    window.location.href = `/video?id=${videoId}`;
     //MODAL
-    modalOverlay.classList.add('active')
+    modalOverlay.classList.add('active');
     //IFRAME
     modalOverlay.querySelector(".iframe").src = `https://www.youtube.com/embed/${videoId}`;
   })
 }
-// FECHANDO O MODAL
-document.querySelector('.close_modal').addEventListener("click", function() {
-  modalOverlay.classList.remove("active")
-  modalOverlay.querySelector(".iframe").src = "";
-});
 
 
 
