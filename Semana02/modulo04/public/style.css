@@ -17,13 +17,17 @@ header {
   width: 100%;
   padding: 32px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 header .links {
   font-size: 22px;
 }
 
-header .links a {
+header .links a + a {
   margin-left: 32px;
+}
+
+header .links a {
   text-decoration: none;
 }
